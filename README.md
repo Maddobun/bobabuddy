@@ -1,7 +1,7 @@
 ## Bobabuddy
 Phase 2 notes:
 
- - The REST server is now hosted on an Azure Cloud virtual machine at `http://20.124.182.63:8080`.
+ - The REST server is now hosted on an Azure VM at `http://20.124.182.63:8080`.
  - By Default, the android application will access this remote server to fetch resources. If you wish to change this behaviour, edit the url constant at `BobaBuddyUI/lib/utils/constant.dart`.
  - If you are running the server on your local machine, use the android loopback address `http://10.0.2.2 :8080`.
 ### How To run
